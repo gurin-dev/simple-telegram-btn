@@ -1,0 +1,36 @@
+.telegram__button img {
+  width: 24px;
+  height: 24px;
+  -webkit-filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(334deg) brightness(126%) contrast(93%);
+          filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(334deg) brightness(126%) contrast(93%);
+}
+
+.telegram__button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  background: #1b9de8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.telegram__button:hover {
+  -webkit-box-shadow: 0 0 6px 2px #b6b6b6;
+          box-shadow: 0 0 6px 2px #b6b6b6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=style.css.map */

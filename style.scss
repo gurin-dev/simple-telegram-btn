@@ -1,0 +1,28 @@
+.telegram__button img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(334deg)
+    brightness(126%) contrast(93%);
+}
+
+.telegram__button {
+  position: fixed;
+  outline: none;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  background: #1b9de8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.telegram__button:hover {
+  outline: none;
+  box-shadow: 0 0 6px 2px #b6b6b6;
+  transition: 0.3s;
+}
